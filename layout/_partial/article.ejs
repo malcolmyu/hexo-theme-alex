@@ -19,6 +19,9 @@
           </p>
         <% } %>
       <% } else { %>
+        <% if (post.toc){ %>
+          <%- toc(post.content) %>
+        <% } %>
         <%- post.content %>
       <% } %>
     </div>
