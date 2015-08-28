@@ -1,5 +1,5 @@
 // https://github.com/chriskempson/tomorrow-theme
-highlight-background = #2d2d2d
+highlight-background = #253238
 highlight-current-line = #393939
 highlight-selection = #515151
 highlight-foreground = #cccccc
@@ -10,7 +10,10 @@ highlight-yellow = #ffcc66
 highlight-green = #99cc99
 highlight-aqua = #66cccc
 highlight-blue = #6699cc
+highlight-white = #ffffff
 highlight-purple = #cc99cc
+highlight-code-black = #2c3e50
+highlight-code-background = #f3f3f3
 
 $code-block
   background: highlight-background
@@ -19,6 +22,7 @@ $code-block
   border-style: solid
   border-color: color-border
   border-width: 1px 0
+  border-radius: 5px
   overflow: auto
   color: highlight-foreground
   line-height: 22px
@@ -31,12 +35,15 @@ $line-numbers
   pre, code
     font-family: font-mono
   code
-    background: color-background
-    text-shadow: 0 1px #fff
-    padding: 0 0.3em
+    color: highlight-code-black
+    background: highlight-code-background
+    border-radius: 0.3em
+    text-shadow: 0 1px highlight-white
+    padding: 0.1em 0.5em
   pre
     @extend $code-block
     code
+      color: highlight-comment
       background: none
       text-shadow: none
       padding: 0

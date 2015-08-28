@@ -24,6 +24,9 @@ widgets:
 links: 
   Hexo: http://hexo.io
 
+# 多说
+duoshuo_shortname: malcolmyu  
+
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
