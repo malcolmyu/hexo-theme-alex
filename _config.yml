@@ -1,10 +1,9 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
-  About: /about/index.html
-rss: 
-github: https://github.com/ppoffice/hexo-theme-alex
+  首页: /malnote
+  博客: /malnote/archives
+rss:
+github: https://github.com/malcolmyu
 
 # Content
 excerpt_link: Read More
@@ -21,16 +20,16 @@ widgets:
 - links
 
 # Links
-links: 
+links:
   Hexo: http://hexo.io
 
 # 多说
-duoshuo_shortname: malcolmyu  
+duoshuo_shortname: malcolmyu
 
 # Miscellaneous
 google_analytics:
-favicon: /favicon.png
-twitter:
+favicon: /malnote/favicon.ico
+twitter: https://twitter.com/minghaoyu
 google_plus:
 fb_admins:
 fb_app_id:
