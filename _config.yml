@@ -23,8 +23,8 @@ widgets:
 links:
   Hexo: http://hexo.io
 
-# 多说
-duoshuo_shortname: malcolmyu
+# disqus
+disqus_shortname: malcolmyu
 
 # Miscellaneous
 google_analytics:
